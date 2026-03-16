@@ -1,12 +1,22 @@
+aid: basel-compliance
 name: Basel Compliance
-description: Basel Compliance ensures that basel practices and systems adhere to relevant
-  laws, regulations, industry standards, and internal policies. It helps organizations
-  avoid legal penalties, maintain trust, and demonstrate accountability to regulators
-  and stakeholders.
-url: null
+description: >-
+  Basel Compliance covers regulatory frameworks and standards for banking
+  institutions, including the Basel Committee on Banking Supervision standards
+  that ensure banking systems maintain adequate capital and manage risks.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Basel Compliance
-created: '2025'
-modified: '2025'
+  - Basel Compliance
+  - Banking Regulation
+  - Risk Management
+  - Finance
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/basel-compliance/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
