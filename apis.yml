@@ -7,10 +7,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Basel Compliance
   - Banking Regulation
-  - Risk Management
+  - Basel Compliance
   - Finance
+  - Risk Management
 url: >-
   https://raw.githubusercontent.com/api-evangelist/basel-compliance/refs/heads/main/apis.yml
 created: '2025-01-01'
