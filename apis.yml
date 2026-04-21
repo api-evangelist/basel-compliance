@@ -1,22 +1,70 @@
 aid: basel-compliance
 name: Basel Compliance
 description: >-
-  Basel Compliance covers regulatory frameworks and standards for banking
-  institutions, including the Basel Committee on Banking Supervision standards
-  that ensure banking systems maintain adequate capital and manage risks.
+  Basel Compliance covers the regulatory frameworks and technical standards issued by the
+  Basel Committee on Banking Supervision (BCBS) at the Bank for International Settlements.
+  The Basel Accords establish minimum capital adequacy, leverage, liquidity, and risk
+  management requirements for internationally active banks. RegTech platforms provide APIs
+  to automate Basel compliance calculations, reporting (COREP, FINREP), and supervisory
+  submissions.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Banking Regulation
-  - Basel Compliance
+  - Basel
+  - Capital Adequacy
+  - Compliance
   - Finance
   - Risk Management
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/basel-compliance/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/basel-compliance/refs/heads/main/apis.yml
 created: '2025-01-01'
-modified: '2026-03-16'
+modified: '2026-04-19'
 specificationVersion: '0.19'
 apis: []
+common:
+  - type: Website
+    url: https://www.bis.org/bcbs/
+    name: Basel Committee on Banking Supervision
+  - type: Website
+    url: https://www.bis.org/bcbs/basel3.htm
+    name: Basel III Framework
+  - type: Website
+    url: https://www.eba.europa.eu/
+    name: European Banking Authority
+  - name: Key Standards
+    type: Features
+    data:
+      - name: Pillar 1 - Minimum Capital Requirements
+        description: Capital requirements for credit risk, market risk, and operational risk.
+      - name: Pillar 2 - Supervisory Review
+        description: Internal capital adequacy assessment process (ICAAP) and supervisory evaluation.
+      - name: Pillar 3 - Market Discipline
+        description: Disclosure requirements for risk exposures and capital adequacy.
+      - name: LCR - Liquidity Coverage Ratio
+        description: Short-term liquidity stress test requiring sufficient high-quality liquid assets.
+      - name: NSFR - Net Stable Funding Ratio
+        description: Long-term funding stability requirement relative to asset composition.
+      - name: Leverage Ratio
+        description: Non-risk-based backstop capital measure limiting excessive leverage.
+      - name: FRTB - Market Risk
+        description: Fundamental Review of the Trading Book capital requirements for market risk.
+      - name: COREP Reporting
+        description: EU common reporting framework for capital adequacy and large exposures.
+  - name: RegTech Use Cases
+    type: UseCases
+    data:
+      - name: Capital Ratio Calculation
+        description: Automated CET1, Tier 1, and Total Capital ratio calculations.
+      - name: Risk-Weighted Asset Computation
+        description: Standardized and IRB approach RWA calculations for credit risk.
+      - name: Liquidity Reporting
+        description: Automated LCR and NSFR calculation and regulatory reporting.
+      - name: COREP/FINREP Submission
+        description: Automated generation of supervisory reports for regulators.
+      - name: Stress Testing
+        description: Capital adequacy stress testing under regulatory scenarios.
+      - name: Large Exposure Monitoring
+        description: Track and report exposures exceeding regulatory thresholds.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
