@@ -1,0 +1,70 @@
+vocabulary:
+  name: Basel Compliance Vocabulary
+  description: >-
+    Key terms and concepts used in Basel regulatory compliance, RegTech platforms,
+    and banking supervision frameworks.
+  terms:
+    - term: BCBS
+      definition: >-
+        Basel Committee on Banking Supervision — the primary global standard setter
+        for the prudential regulation of banks and banking supervision.
+    - term: CET1
+      definition: >-
+        Common Equity Tier 1 — the highest quality capital component, primarily
+        consisting of ordinary shares and retained earnings.
+    - term: RWA
+      definition: >-
+        Risk-Weighted Assets — a bank's assets weighted by their credit risk exposure,
+        used as the denominator in capital ratio calculations.
+    - term: LCR
+      definition: >-
+        Liquidity Coverage Ratio — requires banks to hold sufficient high-quality
+        liquid assets to survive a 30-day liquidity stress scenario.
+    - term: NSFR
+      definition: >-
+        Net Stable Funding Ratio — requires banks to maintain stable funding relative
+        to their asset composition and off-balance-sheet activities over a one-year horizon.
+    - term: COREP
+      definition: >-
+        Common Reporting — the standardized EU supervisory reporting framework for
+        capital adequacy, large exposures, and financial reporting submitted to national regulators.
+    - term: FINREP
+      definition: >-
+        Financial Reporting — the EU framework for standardized financial reporting
+        by credit institutions, based on IFRS accounting standards.
+    - term: ICAAP
+      definition: >-
+        Internal Capital Adequacy Assessment Process — the bank's own assessment
+        of capital required to cover all material risks under Pillar 2.
+    - term: IRB
+      definition: >-
+        Internal Ratings-Based approach — allows banks to use their own risk models
+        to calculate credit risk RWA subject to regulatory approval.
+    - term: SA
+      definition: >-
+        Standardized Approach — the default regulatory method for calculating credit,
+        market, and operational risk capital requirements without internal models.
+    - term: FRTB
+      definition: >-
+        Fundamental Review of the Trading Book — revised market risk capital framework
+        replacing Basel 2.5 rules with improved boundary and methodology requirements.
+    - term: G-SIB
+      definition: >-
+        Global Systemically Important Bank — a bank whose distress or failure would
+        cause significant disruption to global financial system and economic activity.
+    - term: CRD
+      definition: >-
+        Capital Requirements Directive — the EU legislative instrument implementing
+        Basel standards into European banking law.
+    - term: CRR
+      definition: >-
+        Capital Requirements Regulation — the EU regulation setting binding prudential
+        requirements for credit institutions and investment firms.
+    - term: SREP
+      definition: >-
+        Supervisory Review and Evaluation Process — the supervisory assessment of
+        banks' risk profiles and additional capital requirements under Pillar 2.
+    - term: Output Floor
+      definition: >-
+        A constraint introduced in Basel III final package (Basel IV) requiring that
+        internal model RWA outputs be no less than 72.5% of standardized approach results.

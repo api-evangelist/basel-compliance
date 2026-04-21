@@ -1,0 +1,29 @@
+{
+  "@context": "../json-ld/basel-compliance-context.jsonld",
+  "@type": "CapitalRatio",
+  "institution": {
+    "@type": "schema:Organization",
+    "schema:name": "Example Bank AG",
+    "schema:leiCode": "EXAMPLEBANK0000000001"
+  },
+  "regulatoryFramework": "Basel III / CRR2",
+  "jurisdiction": "EU",
+  "reportingPeriod": "2024-Q4",
+  "cet1Ratio": 14.2,
+  "capitalRequirement": 8.0,
+  "riskWeightedAssets": 125000000000,
+  "liquidityCoverageRatio": 142.5,
+  "netStableFundingRatio": 118.3,
+  "leverageRatio": 5.1,
+  "pillar": 1,
+  "buffers": {
+    "capitalConservationBuffer": 2.5,
+    "countercyclicalBuffer": 0.5,
+    "gsibSurcharge": 1.0
+  },
+  "corep": {
+    "template": "C 01.00",
+    "submissionDate": "2025-02-28",
+    "regulator": "ECB"
+  }
+}

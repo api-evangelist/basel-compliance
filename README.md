@@ -1,49 +1,55 @@
-# Basel Compliance (basel-compliance)
-Basel Compliance covers the regulatory frameworks and technical standards issued by the Basel Committee on Banking Supervision (BCBS). The Basel Accords establish minimum capital adequacy, leverage, liquidity, and risk management requirements for internationally active banks.
+# Basel Compliance
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/basel-compliance/refs/heads/main/apis.yml)
+Basel Compliance covers the regulatory frameworks and technical standards issued by the Basel Committee on Banking Supervision (BCBS) at the Bank for International Settlements. The Basel Accords establish minimum capital adequacy, leverage, liquidity, and risk management requirements for internationally active banks. RegTech platforms provide APIs to automate Basel compliance calculations, reporting (COREP, FINREP), and supervisory submissions.
 
-## Tags:
+## Overview
 
- - Banking Regulation, Basel, Capital Adequacy, Compliance, Finance, Risk Management
+The Basel framework is organized around three pillars:
 
-## Timestamps
-
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-19
+- **Pillar 1** — Minimum capital requirements for credit, market, and operational risk
+- **Pillar 2** — Supervisory review process (ICAAP/SREP)
+- **Pillar 3** — Market discipline through public disclosure
 
 ## Key Standards
 
-| Name | Description |
-|------|-------------|
-| Pillar 1 - Minimum Capital Requirements | Capital requirements for credit risk, market risk, and operational risk. |
-| Pillar 2 - Supervisory Review | Internal capital adequacy assessment process (ICAAP) and supervisory evaluation. |
-| Pillar 3 - Market Discipline | Disclosure requirements for risk exposures and capital adequacy. |
-| LCR - Liquidity Coverage Ratio | Short-term liquidity stress test requiring sufficient high-quality liquid assets. |
-| NSFR - Net Stable Funding Ratio | Long-term funding stability requirement relative to asset composition. |
-| Leverage Ratio | Non-risk-based backstop capital measure limiting excessive leverage. |
-| FRTB - Market Risk | Fundamental Review of the Trading Book capital requirements for market risk. |
-| COREP Reporting | EU common reporting framework for capital adequacy and large exposures. |
+| Standard | Description |
+|---|---|
+| CET1 Capital Ratio | Minimum 4.5% of risk-weighted assets |
+| Tier 1 Capital Ratio | Minimum 6% of risk-weighted assets |
+| Total Capital Ratio | Minimum 8% of risk-weighted assets |
+| LCR | 30-day liquidity coverage ratio >= 100% |
+| NSFR | Net Stable Funding Ratio >= 100% |
+| Leverage Ratio | Minimum 3% of total exposures |
+| Output Floor | IRB RWA >= 72.5% of standardized approach |
 
-## RegTech Use Cases
+## Data Providers
 
-| Name | Description |
-|------|-------------|
-| Capital Ratio Calculation | Automated CET1, Tier 1, and Total Capital ratio calculations. |
-| Risk-Weighted Asset Computation | Standardized and IRB approach RWA calculations for credit risk. |
-| Liquidity Reporting | Automated LCR and NSFR calculation and regulatory reporting. |
-| COREP/FINREP Submission | Automated generation of supervisory reports for regulators. |
-| Stress Testing | Capital adequacy stress testing under regulatory scenarios. |
-| Large Exposure Monitoring | Track and report exposures exceeding regulatory thresholds. |
+- [BIS Statistics](https://stats.bis.org/) — Global banking statistical data
+- [EBA Data](https://www.eba.europa.eu/risk-analysis-and-data) — EU supervisory reporting datasets
+- [Federal Reserve Statistical Release](https://www.federalreserve.gov/releases/) — US bank capital data
+- [S&P Global Market Intelligence](https://www.spglobal.com/marketintelligence/en/) — Commercial bank data
+- [Moody's Analytics](https://www.moodysanalytics.com/) — Risk and compliance solutions
 
-## Common Resources
+## Resources
 
 - [Basel Committee on Banking Supervision](https://www.bis.org/bcbs/)
 - [Basel III Framework](https://www.bis.org/bcbs/basel3.htm)
 - [European Banking Authority](https://www.eba.europa.eu/)
+- [COREP/FINREP Reporting](https://www.eba.europa.eu/regulation-and-policy/supervisory-reporting)
+- [Federal Reserve - Basel Implementation](https://www.federalreserve.gov/supervisionreg/Basel.htm)
+
+## Vocabulary
+
+See [vocabulary/basel-compliance-vocabulary.yaml](vocabulary/basel-compliance-vocabulary.yaml) for key terms and definitions.
+
+## JSON-LD Context
+
+See [json-ld/basel-compliance-context.jsonld](json-ld/basel-compliance-context.jsonld) for linked data context mapping Basel compliance concepts.
+
+## Examples
+
+See [examples/capital-ratio-report-example.json](examples/capital-ratio-report-example.json) for a sample Basel capital ratio report structure.
 
 ## Maintainers
 
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- Kin Lane (kin@apievangelist.com)

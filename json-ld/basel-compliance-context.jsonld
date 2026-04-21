@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "bcbs": "https://www.bis.org/bcbs/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "BaselCompliance": {
+      "@id": "bcbs:Compliance",
+      "@type": "@id"
+    },
+    "CapitalRatio": {
+      "@id": "bcbs:CapitalRatio",
+      "@type": "@id"
+    },
+    "regulatoryFramework": {
+      "@id": "schema:legislationIdentifier",
+      "@type": "xsd:string"
+    },
+    "pillar": {
+      "@id": "bcbs:pillar",
+      "@type": "xsd:integer"
+    },
+    "capitalRequirement": {
+      "@id": "bcbs:capitalRequirement",
+      "@type": "xsd:decimal"
+    },
+    "riskWeightedAssets": {
+      "@id": "bcbs:riskWeightedAssets",
+      "@type": "xsd:decimal"
+    },
+    "liquidityCoverageRatio": {
+      "@id": "bcbs:LCR",
+      "@type": "xsd:decimal"
+    },
+    "netStableFundingRatio": {
+      "@id": "bcbs:NSFR",
+      "@type": "xsd:decimal"
+    },
+    "leverageRatio": {
+      "@id": "bcbs:leverageRatio",
+      "@type": "xsd:decimal"
+    },
+    "cet1Ratio": {
+      "@id": "bcbs:CET1Ratio",
+      "@type": "xsd:decimal"
+    },
+    "reportingPeriod": {
+      "@id": "schema:temporalCoverage",
+      "@type": "xsd:string"
+    },
+    "jurisdiction": {
+      "@id": "schema:jurisdiction",
+      "@type": "xsd:string"
+    },
+    "institution": {
+      "@id": "schema:Organization",
+      "@type": "@id"
+    }
+  }
+}
