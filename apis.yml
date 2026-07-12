@@ -24,6 +24,8 @@ modified: '2026-04-21'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/basel-compliance-domain-security.yml
   - type: Website
     url: https://www.bis.org/bcbs/
     name: Basel Committee on Banking Supervision
